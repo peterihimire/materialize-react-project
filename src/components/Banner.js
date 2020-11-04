@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./Banner.css";
-// import "../../src/index.css";
-// import "../App.css";
 import M from "materialize-css/dist/js/materialize.min.js";
-// import $ from "jquery";
-
 import bannerOne from "../assets/banner-1.svg";
 import bannerTwo from "../assets/banner-2.svg";
 
@@ -48,20 +44,6 @@ class Banner extends Component {
       return instances;
     }
 
-    // function destroyCarousel(instances) {
-    //   if (!window || !document) return null;
-
-    //   if (Array.isArray(instances)) {
-    //     for (let i = 0; i < instances.length; ++i) {
-    //       removeAutoScroll(instances[i]);
-    //       instances[i].destroy();
-    //     }
-    //   } else {
-    //     removeAutoScroll(instances);
-    //     instances.destroy();
-    //   }
-    // }
-
     function addAutoScroll(instance) {
       if (!instance.options.autoScroll) return;
 
@@ -82,21 +64,6 @@ class Banner extends Component {
         passive: true,
       });
     }
-
-    // function removeAutoScroll(instance) {
-    //   if (instance.autoScrollIntervalId) {
-    //     window.clearInterval(instance.autoScrollIntervalId);
-    //     instance.autoScrollIntervalId = undefined;
-    //   }
-
-    //   instance.el.removeEventListener("mouseover", carouselMouseOverTouchStart);
-    //   instance.el.removeEventListener("mouseleave", carouselMouseOutTouchEnd);
-    //   instance.el.removeEventListener(
-    //     "touchstart",
-    //     carouselMouseOverTouchStart
-    //   );
-    //   instance.el.removeEventListener("touchend", carouselMouseOutTouchEnd);
-    // }
 
     function carouselMouseOverTouchStart() {
       const instance = M.Carousel.getInstance(this);
