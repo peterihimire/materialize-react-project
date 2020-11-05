@@ -95,6 +95,39 @@ a.middle-indicator-text {
   background: var(--pry-color) !important;
   color: red !important;
 }
+
+.slick-prev {
+  left: -52px !important;
+  right: -52px !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #000000;
+  font-size: 48px;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: red;
+}
 @media (max-width: 992px) {
   #car-options .carousel.carousel-slider {
     min-height: 400px;

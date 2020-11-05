@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import HomeAbout from "./components/HomeAbout";
 import BuyCar from "./components/BuyCar";
-// import CarOption from "./components/CarOption";
+import CarOption from "./components/CarOption";
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <Banner />
         <HomeAbout />
         <BuyCar />
-        {/* <CarOption /> */}
+        <CarOption />
       </div>
     );
   }
