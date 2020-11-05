@@ -16,6 +16,17 @@ import "slick-carousel/slick/slick-theme.css";
 // import "pure-react-carousel/dist/react-carousel.es.css";
 
 class CarOption extends Component {
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
   render() {
     const settings = {
       dots: false,
@@ -46,22 +57,22 @@ class CarOption extends Component {
       ],
       slidesToShow: 1,
       slidesToScroll: 1,
-      nextArrow: (
-        <div>
-          <div className="next-slick-arrow">
-            {" "}
-            <i className="material-icons left ">chevron_right</i>{" "}
-          </div>
-        </div>
-      ),
-      prevArrow: (
-        <div>
-          <div className="prev-slick-arrow">
-            {" "}
-            <i className="material-icons left">chevron_left</i>{" "}
-          </div>
-        </div>
-      ),
+      // nextArrow: (
+      //   <div>
+      //     <div className="next-slick-arrow">
+      //       {" "}
+      //       <i className="material-icons left ">chevron_right</i>{" "}
+      //     </div>
+      //   </div>
+      // ),
+      // prevArrow: (
+      //   <div>
+      //     <div className="prev-slick-arrow">
+      //       {" "}
+      //       <i className="material-icons left">chevron_left</i>{" "}
+      //     </div>
+      //   </div>
+      // ),
     };
     return (
       <section id="car-options" className="seecar">
@@ -70,9 +81,9 @@ class CarOption extends Component {
             <h4 className="sect-title center">See Some Car Options</h4>
 
             <div className="App">
-              <Slider {...settings}>
+              <Slider ref={(c) => (this.slider = c)} {...settings}>
                 <div>
-                <div className="cars-options-wrapper">
+                  <div className="cars-options-wrapper">
                     <div className="car-option-block">
                       <img
                         src={image}
@@ -132,7 +143,7 @@ class CarOption extends Component {
                   </div>
                 </div>
                 <div>
-                <div className="cars-options-wrapper">
+                  <div className="cars-options-wrapper">
                     <div className="car-option-block">
                       <img
                         src={image}
@@ -192,7 +203,7 @@ class CarOption extends Component {
                   </div>
                 </div>
                 <div>
-                <div className="cars-options-wrapper">
+                  <div className="cars-options-wrapper">
                     <div className="car-option-block">
                       <img
                         src={image}
@@ -251,8 +262,18 @@ class CarOption extends Component {
                     </div>
                   </div>
                 </div>
-                
               </Slider>
+              <div
+                className="r-slick-container"
+                style={{ textAlign: "center" }}
+              >
+                <button className="button" onClick={this.previous}>
+                  <i className="material-icons left">chevron_left</i>
+                </button>
+                <button className="button" onClick={this.next}>
+                  <i className="material-icons right">chevron_right</i>
+                </button>
+              </div>
             </div>
 
             {/* <CarouselProvider
