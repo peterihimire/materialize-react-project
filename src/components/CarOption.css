@@ -97,7 +97,7 @@ a.middle-indicator-text {
 }
 .r-slick-container {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 /* .slick-next:before,
 .slick-prev:before {
