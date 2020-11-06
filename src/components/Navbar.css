@@ -25,6 +25,13 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+nav .sidenav-trigger {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 0px 0 18px !important;
+}
 
 /* @media (min-width: 993px) {
   .container {

@@ -252,55 +252,6 @@ class CarOption extends Component {
               </div>
             </div>
             <CarSliderXs />
-            {/* <div className="  visible-xs mbxs">
-              <CarSliderXs />
-              <Slider  {...settings2}>
-                <div>
-                  <div className="cars-options-wrapper">
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="cars-options-wrapper">
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="cars-options-wrapper">
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </Slider>
-              <div
-                className="r-slick-container"
-                style={{ textAlign: "center" }}
-              >
-                <button className="button" onClick={this.previous}>
-                  <i className="material-icons left">chevron_left</i>
-                </button>
-                <button className="button" onClick={this.next}>
-                  <i className="material-icons right">chevron_right</i>
-                </button>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
