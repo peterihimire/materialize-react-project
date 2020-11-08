@@ -13,7 +13,7 @@ const HomeAbout = () => {
                 <div className="home-about-text-container">
                   <div className="home-about-header">
                     <h3>
-                      AboutPayMonthly<span>Cars</span>
+                      About PayMonthly<span>cars</span>
                     </h3>
                     <p>Our mission is simple</p>
                   </div>
