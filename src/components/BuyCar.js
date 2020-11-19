@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./BuyCar.css";
-import image from "../assets/undraw-1.svg";
+import image from "../assets/undraw-3.svg";
 
 class BuyCar extends Component {
   render() {
