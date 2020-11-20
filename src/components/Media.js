@@ -7,11 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 // import ReactPlayer from "react-player/youtube";
 import MediaSliderXs from "./MediaSliderXs";
 import ModalVideo from "react-modal-video";
-// @import 'node_modules/react-modal-video/scss/modal-video.scss';
 import "react-modal-video/scss/modal-video.scss";
 
 const Media = (props) => {
   const [isOpen, setOpen] = useState(false);
+  const [isOpen2, setOpen2] = useState(false);
+  const [isOpen3, setOpen3] = useState(false);
   const settings = {
     dots: false,
     infinite: true,
@@ -51,6 +52,18 @@ const Media = (props) => {
         videoId="oDKQYqkmySA"
         onClose={() => setOpen(false)}
       />
+      <ModalVideo
+        channel="youtube"
+        isOpen={isOpen2}
+        videoId="qN_AA2FzweI"
+        onClose={() => setOpen2(false)}
+      />
+      <ModalVideo
+        channel="youtube"
+        isOpen={isOpen3}
+        videoId="qN_AA2FzweI"
+        onClose={() => setOpen3(false)}
+      />
       <section className="media">
         <div className="container">
           <h4 className="media-heading center">media</h4>
@@ -88,7 +101,7 @@ const Media = (props) => {
                           src={image}
                           alt="video 1"
                           width="100%"
-                          onClick={() => setOpen(true)}
+                          onClick={() => setOpen2(true)}
                         />
                       </div>
                     </div>
@@ -105,7 +118,7 @@ const Media = (props) => {
                           src={image}
                           alt="video 1"
                           width="100%"
-                          onClick={() => setOpen(true)}
+                          onClick={() => setOpen3(true)}
                         />
                       </div>
                     </div>
