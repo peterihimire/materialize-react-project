@@ -54,7 +54,7 @@ class CarOption extends Component {
       <section id="car-options" className="seecar">
         <div className="row rel">
           <div className="container">
-            <h4 className="sect-title center">See Some Car Options</h4>
+            <h3 className="sect-title center">See Some Car Options</h3>
 
             <div className=" hidden-xs">
               <Slider ref={(c) => (this.slider = c)} {...settings}>
@@ -247,7 +247,9 @@ class CarOption extends Component {
                   <i className="material-icons left">chevron_left</i>
                 </button>
                 <button className="button" onClick={this.next}>
-                  <i className="material-icons right">chevron_right</i>
+                  <i className="material-icons right  ">
+                    chevron_right
+                  </i>
                 </button>
               </div>
             </div>

@@ -66,7 +66,7 @@ const Media = (props) => {
       <section className="media">
         <div className="container">
           <div className="media-heading-container">
-            <h4 className="media-heading center">media</h4>
+            <h3 className="media-heading center">media</h3>
           </div>
 
           <div className="row">
