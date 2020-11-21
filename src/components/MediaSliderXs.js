@@ -35,6 +35,7 @@ class MediaSliderXs extends Component {
   previous() {
     this.slider.slickPrev();
   }
+
   render() {
     const settings2 = {
       dots: false,
