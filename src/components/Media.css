@@ -4,3 +4,29 @@
 .vid-img:hover {
   cursor: pointer;
 }
+.media-heading-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 2rem 0;
+}
+.media-heading {
+  display: inline-block;
+  padding: 0 0 0.7rem 0;
+  position: relative;
+  color: var(--pry-color);
+  font-size: 35px;
+  text-transform: capitalize;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+.media-heading::before {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 2px;
+  bottom: 0;
+  left: 40px;
+  border-bottom: 3px solid var(--sec-color);
+}

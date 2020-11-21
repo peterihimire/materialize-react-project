@@ -65,7 +65,10 @@ const Media = (props) => {
       />
       <section className="media">
         <div className="container">
-          <h4 className="media-heading center">media</h4>
+          <div className="media-heading-container">
+            <h4 className="media-heading center">media</h4>
+          </div>
+
           <div className="row">
             <div className="col s12">
               <div className="col s12 hidden-xs">
