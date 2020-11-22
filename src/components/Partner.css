@@ -1,0 +1,33 @@
+section.partner {
+  padding: 5rem 0;
+}
+.partner-header {
+  display: flex;
+  justify-content: center;
+}
+.partner-header h3 {
+  display: inline-block;
+  padding: 0 0 0.7rem 0;
+  position: relative;
+  color: var(--pry-color);
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.partner-header h3::before {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 2px;
+  bottom: 0;
+  left: 80px;
+  border-bottom: 3px solid var(--sec-color);
+}
+.partner-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15rem;
+}
+.partner-content {
+  font-weight: bolder;
+}

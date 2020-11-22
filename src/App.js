@@ -7,6 +7,7 @@ import BuyCar from "./components/BuyCar";
 import CarOption from "./components/CarOption";
 import SellCar from "./components/SellCar";
 import Media from "./components/Media";
+import Partner from "./components/Partner";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <CarOption />
         <SellCar />
         <Media />
+        <Partner />
       </div>
     );
   }

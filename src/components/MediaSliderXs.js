@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import image from "../assets/Screenshot.png";
+import image1 from "../assets/img-1.jpg";
+import image2 from "../assets/img-2.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -99,7 +100,7 @@ class MediaSliderXs extends Component {
             /> */}
               <div class="vid-img">
                 <img
-                  src={image}
+                  src={image2}
                   alt="video 1"
                   width="100%"
                   onClick={this.openModal}
@@ -115,7 +116,7 @@ class MediaSliderXs extends Component {
             /> */}
               <div class="vid-img">
                 <img
-                  src={image}
+                  src={image1}
                   alt="video 1"
                   width="100%"
                   onClick={this.openModal2}
@@ -131,7 +132,7 @@ class MediaSliderXs extends Component {
             /> */}
               <div class="vid-img">
                 <img
-                  src={image}
+                  src={image2}
                   alt="video 1"
                   width="100%"
                   onClick={this.openModal3}
