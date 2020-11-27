@@ -66,7 +66,7 @@ class Navbar extends Component {
         <ul className="sidenav" id="mobile-nav">
           <div className="sidenav-logo">
             <a href="/">
-              <img src={logo} alt="vasiti-logo" />
+              <img src={logo} alt="paymonthly-logo" />
             </a>
           </div>
 
