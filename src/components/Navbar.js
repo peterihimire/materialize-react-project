@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import logoAlt from "../assets/logo-alt.svg";
 import logo from "../assets/logo.svg";
 import menuIcon from "../assets/menu-icon.svg";
 import M from "materialize-css/dist/js/materialize.min.js";
@@ -66,7 +67,7 @@ class Navbar extends Component {
         <ul className="sidenav" id="mobile-nav">
           <div className="sidenav-logo">
             <a href="/">
-              <img src={logo} alt="paymonthly-logo" />
+              <img src={logoAlt} alt="paymonthly-logo" />
             </a>
           </div>
 
@@ -82,7 +83,7 @@ class Navbar extends Component {
             <a href="/">faq</a>
           </li>
           <li className="nav-item login-style">
-            <a href="/" className="">
+            <a href="/" className="sidenav-login">
               log in
             </a>
           </li>
@@ -112,7 +113,7 @@ class Navbar extends Component {
                   <img src={logo} alt="ing" />
                 </a>
               </div> */}
-              <div className="black-txt bold-txt">
+              <div className="white-txt bold-txt">
                 <p>©COPYRIGHT PAYMONTHLYCARS.COM 2020</p>
               </div>
             </div>

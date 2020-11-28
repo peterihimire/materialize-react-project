@@ -37,7 +37,6 @@ nav .sidenav-trigger {
   color: var(--mainWhite) !important;
 }
 .sidenav-logo {
-  background-color: var(--mainWhite) !important;
   padding: 2rem 0;
 }
 .sidenav-logo a {
@@ -46,20 +45,22 @@ nav .sidenav-trigger {
   align-items: center;
 }
 .sidenav-logo img {
-  width: 70%;
+  width: 50%;
   /* text-align: center; */
 }
 .signup-style {
   background-color: var(--sec-color);
 }
 .login-style a {
-  color: var(--mainBlack) !important;
+  color: var(--pry-color) !important;
 }
 .login-style {
   background: var(--mainWhite);
+}
+.sidenav .sidenav-login {
   color: var(--pry-color) !important;
 }
-.sidenav-footer {
+.sidenav .sidenav-footer {
   margin: 100px 0 0 0;
   position: absolute;
   width: 100%;
@@ -72,16 +73,20 @@ nav .sidenav-trigger {
   text-transform: capitalize !important;
   color: var(--mainWhite) !important;
 }
+.sidenav-footer {
+  margin: 100px 0 0 0;
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+
+  color: var(--mainWhite) !important;
+}
+.sidenav .sidenav-footer p {
+  font-size: 0.5rem !important;
+}
 @media only screen and (min-width: 601px) {
   .sidenav {
-    width: 50%;
-  }
-  .nav-two {
-    line-height: 40px;
-    height: 40px;
-    background-color: var(--mainWhite);
-    border-top: var(--mainGrey) 1px solid !important;
-    box-shadow: var(--main-shadow);
+    width: 50% !important;
   }
 
   .sidenav-footer {
@@ -100,6 +105,9 @@ nav .sidenav-trigger {
     font-size: 2.2rem !important;
     margin: 0.6rem 0 0 0;
     text-transform: capitalize !important;
+  }
+  .sidenav .sidenav-footer p {
+    font-size: .8rem !important;
   }
 }
 /* @media (min-width: 993px) {
