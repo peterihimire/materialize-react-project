@@ -80,7 +80,7 @@ class Navbar extends Component {
             <a href="/">about</a>
           </li>
           <li className="nav-item">
-            <a href="/">faq</a>
+            <a href="/">FAQs</a>
           </li>
           <li className="nav-item login-style">
             <a href="/" className="sidenav-login">

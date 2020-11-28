@@ -8,6 +8,7 @@ import CarOption from "./components/CarOption";
 import SellCar from "./components/SellCar";
 import Media from "./components/Media";
 import Partner from "./components/Partner";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <SellCar />
         <Media />
         <Partner />
+        <Footer />
       </div>
     );
   }
