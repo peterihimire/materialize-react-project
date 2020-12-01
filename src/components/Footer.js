@@ -12,8 +12,8 @@ const Footer = () => {
           </a>
         </div>
         <hr />
-        <div className="row">
-          <div className=" col s12 m12 l3 footer-content-one">
+        <div className="row footer-content-one">
+          <div className=" col s12 m12 l3 ">
             <div className="s12 m4  white-text">
               <h6>join our mailing list</h6>
               <form>
@@ -67,8 +67,13 @@ const Footer = () => {
         </div>
         <div className="footer-copyright">
           <p>
-            copyright paymonthly 2020 - <a href="/">terms & conditions</a>{" "}
-            <a href="/">privacy policy</a>{" "}
+            copyright paymonthly 2020 -{" "}
+            <u>
+              <a href="/">terms & conditions</a>
+            </u>{" "}
+            <u>
+              <a href="/">privacy policy</a>
+            </u>{" "}
           </p>
         </div>
       </div>
