@@ -18,7 +18,7 @@ const Footer = () => {
               <h6>join our mailing list</h6>
               <form>
                 <input />
-                <button>subscribe</button>
+                <button className="btn">subscribe</button>
               </form>
             </div>
           </div>
@@ -52,6 +52,24 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className=" row footer-social">
+          <div className="col s12 m4">
+            <ul className="social-item">
+              <li>f</li>
+              <li>r</li>
+              <li>i</li>
+            </ul>
+          </div>
+          <div className="col s12 m4">
+            <p>paymonthly is an arm of procredita capital limited</p>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <p>
+            copyright paymonthly 2020 - <a href="/">terms & conditions</a>{" "}
+            <a href="/">privacy policy</a>{" "}
+          </p>
         </div>
       </div>
     </footer>

@@ -2,3 +2,14 @@ footer {
   background-color: var(--pry-color);
   padding: 5rem 0;
 }
+.social-item {
+  display: flex;
+}
+.social-item li {
+  padding-right: 4rem;
+}
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
