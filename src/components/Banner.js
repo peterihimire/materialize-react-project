@@ -129,7 +129,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
-                    <div className="btn ">buy a car</div>
+                    <div className="btn btn-bigger ">buy a car</div>
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
-                    <div className="btn">buy a car</div>
+                    <div className="btn btn-bigger">buy a car</div>
                   </div>
                 </div>
               </div>

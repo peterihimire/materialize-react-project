@@ -30,3 +30,14 @@
   left: 40px;
   border-bottom: 3px solid var(--sec-color);
 }
+@media (max-width: 600px) {
+  .media-heading {
+    display: inline-block;
+    padding: 0 0 0.7rem 0;
+    position: relative;
+    color: var(--pry-color);
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+}

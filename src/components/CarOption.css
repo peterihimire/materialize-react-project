@@ -70,7 +70,6 @@ a.middle-indicator-text {
   padding-top: 0;
 }
 #car-options .carousel.carousel-slider {
-  /* min-height: 550px; */
   min-height: 550px;
 }
 .cars-options-wrapper {
@@ -82,12 +81,28 @@ a.middle-indicator-text {
 }
 .car-option-block {
   display: flex;
+  background-color: var(--mainGrey);
+  padding: 1rem;
 }
 .car-block-container {
-  width: 300px;
+  width: 200px;
+  /* height: 400px; */
+  background-color: var(--darkGrey);
+  border-radius: 8px;
 }
 .car-block-text {
   padding: 0 0 0 3rem;
+  text-transform: capitalize;
+  font-size: 0.85rem;
+}
+.car-block-text h6 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: roboto-bold;
+  color: var(--pry-color);
+}
+.car-block-text span {
+  font-weight: bold;
 }
 .slider-navigation {
   width: 100%;
@@ -132,11 +147,23 @@ i.right {
     min-height: 400px;
   }
   .car-block-container {
-    width: 140px;
+    width: 110px;
+  }
+  .car-block-text {
+    padding: 0 0 0 1rem;
+    text-transform: capitalize;
+    font-size: 0.85rem;
   }
 }
 @media (max-width: 600px) {
   .cars-options-wrapper {
     grid-template-columns: 100%;
+  }
+  .sect-title {
+    color: var(--pry-color);
+    font-size: 30px;
+  }
+  .car-block-container {
+    width: 130px;
   }
 }

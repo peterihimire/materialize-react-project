@@ -164,29 +164,40 @@ h4 {
 .btn {
   background-color: var(--sec-color) !important;
   color: var(--mainWhite) !important;
-  /* padding: 0 2rem !important; */
   text-transform: capitalize !important;
   box-shadow: none !important;
-  width: 120px;
+  width: 130px;
   font-size: 0.8rem !important;
+  height: 32px !important;
+  line-height: 32px !important;
 }
 .btn-bigger {
-  height: 42px !important;
-  line-height: 42px !important;
-  padding: 0 3rem !important;
-  width: 150px;
+  height: 38px !important;
+  line-height: 38px !important;
+  padding: 0 0rem !important;
+  width: 160px;
+}
+.btn-full-width {
+  width: 160px;
 }
 @media (min-width: 993px) {
   .container {
     width: 80% !important;
   }
 }
-
+@media (max-width: 992px) {
+  .btn-full-width {
+    width: 100%;
+  }
+}
 @media (max-width: 600px) {
   .hidden-xs {
     display: none !important;
   }
   .visible-xs {
     display: block !important;
+  }
+  .btn-full-width {
+    width: 100%;
   }
 }

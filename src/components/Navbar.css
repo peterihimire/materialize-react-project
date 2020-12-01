@@ -40,15 +40,15 @@ nav .sidenav-trigger {
   color: var(--mainWhite) !important;
 }
 .sidenav-logo {
-  padding: 2rem 0;
+  padding: 2rem 32px;
 }
 .sidenav-logo a {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .sidenav-logo img {
-  width: 35%;
+  width: 50%;
   /* text-align: center; */
 }
 .signup-style {

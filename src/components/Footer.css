@@ -19,8 +19,10 @@ footer .footer-content-one h6 {
 .footer-social {
   color: var(--mainWhite);
 }
-.footer-social .social-item {
-  /* display: flex; */
+.sub-btn-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 footer .footer-social p {
   color: var(--mainWhite);
@@ -39,7 +41,7 @@ footer .footer-content-one ul {
   justify-content: flex-start;
 }
 .social-item li {
-  padding-right: 4rem;
+  padding-right: 2rem;
 }
 .footer-copyright {
   display: flex;
@@ -53,6 +55,15 @@ footer .footer-content-one ul {
 .footer-copyright a {
   color: var(--mainWhite) !important;
 }
+/* Ipad */
+@media (max-width: 992px) {
+  .sub-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Iphone */
 @media (max-width: 600px) {
   .social-item {
     display: flex;
@@ -66,6 +77,12 @@ footer .footer-content-one ul {
     display: flex;
     justify-content: center;
     align-items: center !important;
+    padding: 0.1rem 0;
     text-align: center;
+  }
+  .sub-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

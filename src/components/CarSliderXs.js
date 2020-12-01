@@ -59,7 +59,7 @@ class CarSliderXs extends Component {
                 </div>
 
                 <div className="car-block-text">
-                  <h5>toyota prado</h5>
+                  <h6>toyota prado</h6>
                   <ul>
                     <li>
                       year: <span>2018</span>
@@ -92,7 +92,7 @@ class CarSliderXs extends Component {
                 </div>
 
                 <div className="car-block-text">
-                  <h5>toyota prado</h5>
+                  <h6>toyota prado</h6>
                   <ul>
                     <li>
                       year: <span>2018</span>
@@ -125,7 +125,7 @@ class CarSliderXs extends Component {
                 </div>
 
                 <div className="car-block-text">
-                  <h5>toyota prado</h5>
+                  <h6>toyota prado</h6>
                   <ul>
                     <li>
                       year: <span>2018</span>

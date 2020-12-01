@@ -20,8 +20,12 @@ const Footer = () => {
             <div className="s12 m4  white-text">
               <h6>join our mailing list</h6>
               <form>
-                <input />
-                <button className="btn btn-bigger">subscribe</button>
+                <input name="email" required />
+                <div className="sub-btn-container">
+                  <button className="btn btn-bigger btn-full-width">
+                    subscribe
+                  </button>
+                </div>
               </form>
             </div>
           </div>
