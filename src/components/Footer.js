@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import logoAlt from "../assets/logo-alt.svg";
+import twIcon from "../assets/tw.svg";
+import fbIcon from "../assets/fb.svg";
+import inIcon from "../assets/in.svg";
 
 const Footer = () => {
   return (
@@ -18,7 +21,7 @@ const Footer = () => {
               <h6>join our mailing list</h6>
               <form>
                 <input />
-                <button className="btn">subscribe</button>
+                <button className="btn btn-bigger">subscribe</button>
               </form>
             </div>
           </div>
@@ -55,13 +58,21 @@ const Footer = () => {
         </div>
         <div className=" row footer-social">
           <div className="col s12 m4">
-            <ul className="social-item">
-              <li>f</li>
-              <li>r</li>
-              <li>i</li>
+            <ul className="social-item center-sm">
+              <li>
+                <img src={twIcon} alt="twitter-icon" />{" "}
+              </li>
+              <li>
+                {" "}
+                <img src={fbIcon} alt="twitter-icon" />
+              </li>
+              <li>
+                {" "}
+                <img src={inIcon} alt="twitter-icon" />
+              </li>
             </ul>
           </div>
-          <div className="col s12 m4">
+          <div className="col s12 m8 center-sm">
             <p>paymonthly is an arm of procredita capital limited</p>
           </div>
         </div>

@@ -14,6 +14,9 @@ nav.trans-nav {
 nav {
   background-color: var(--mainWhite) !important;
 }
+nav .nav-login-group span a{
+  color: var(--mainWhite) !important;
+}
 .nav-item a {
   color: var(--mainBlack) !important;
 }

@@ -19,3 +19,7 @@
   left: 0;
   border-bottom: 3px solid var(--sec-color);
 }
+.small-txt {
+  font-size: 0.7rem !important;
+  padding: 0 0 !important;
+}

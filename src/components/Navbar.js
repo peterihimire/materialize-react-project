@@ -54,7 +54,7 @@ class Navbar extends Component {
                 <li className="nav-item nav-login-group">
                   <a href="/">Log In</a>
                   <span>
-                    <a href="/" className="btn nav-btn white-text">
+                    <a href="/" className="btn nav-btn ">
                       Sign Up
                     </a>
                   </span>

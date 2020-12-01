@@ -41,7 +41,7 @@ class BuyCar extends Component {
                       </p>
                     </div>
                     <div>
-                      <a href="/" className="btn">
+                      <a href="/" className="btn btn-bigger">
                         Buy a car{" "}
                       </a>
                     </div>

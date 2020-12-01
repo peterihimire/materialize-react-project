@@ -27,7 +27,7 @@ const SellCar = () => {
                     </p>
                   </div>
                   <div>
-                    <a href="/" className="btn">
+                    <a href="/" className="btn btn-bigger small-txt">
                       register your interest
                     </a>
                   </div>

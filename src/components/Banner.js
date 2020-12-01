@@ -112,7 +112,7 @@ class Banner extends Component {
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
                       </p>
-                      <div className="btn hidden-xs">buy car</div>
+                      <div className="btn hidden-xs btn-bigger">buy a car</div>
                     </div>
                   </div>
                   <div className="col s12 m5 offset-m2">
@@ -129,7 +129,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
-                    <div className="btn ">buy car</div>
+                    <div className="btn ">buy a car</div>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ class Banner extends Component {
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
                       </p>
-                      <div className="btn hidden-xs">buy car</div>
+                      <div className="btn hidden-xs btn-bigger">buy a car</div>
                     </div>
                   </div>
                   <div className="col s12 m5 offset-m2">
@@ -159,7 +159,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
-                    <div className="btn">buy car</div>
+                    <div className="btn">buy a car</div>
                   </div>
                 </div>
               </div>

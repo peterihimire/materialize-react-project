@@ -158,7 +158,24 @@ h4 {
 .flex-wrap {
   flex-wrap: wrap;
 }
-
+.center-sm {
+  text-align: center;
+}
+.btn {
+  background-color: var(--sec-color) !important;
+  color: var(--mainWhite) !important;
+  /* padding: 0 2rem !important; */
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+  width: 120px;
+  font-size: 0.8rem !important;
+}
+.btn-bigger {
+  height: 42px !important;
+  line-height: 42px !important;
+  padding: 0 3rem !important;
+  width: 150px;
+}
 @media (min-width: 993px) {
   .container {
     width: 80% !important;
