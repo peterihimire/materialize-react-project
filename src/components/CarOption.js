@@ -61,180 +61,414 @@ class CarOption extends Component {
                 <div>
                   <div className="cars-options-wrapper">
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cars-options-wrapper">
+                    <div className="car-option-block">
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div className="cars-options-wrapper">
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cars-options-wrapper">
+                    <div className="car-option-block">
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div className="cars-options-wrapper">
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cars-options-wrapper">
+                    <div className="car-option-block">
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                     <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
-                    </div>
-                    <div className="car-option-block">
-                      <img
-                        src={image}
-                        alt="car"
-                        className="car-block full-width"
-                      />
+                      <div className="car-block-container">
+                        <img
+                          src={image}
+                          alt="car"
+                          className="car-block full-width"
+                        />
+                      </div>
+
+                      <div className="car-block-text">
+                        <h5>toyota prado</h5>
+                        <ul>
+                          <li>
+                            year: <span>2018</span>
+                          </li>
+                          <li>
+                            location: <span>lagos state</span>
+                          </li>
+                          <li>
+                            total price: <span>15,800,000</span>
+                          </li>
+                          <li>
+                            monthly installment: <span>N1,580,000</span>
+                          </li>
+                          <li>
+                            duration: <span>10 months</span>
+                          </li>
+                        </ul>
+                        <a href="/" className="btn btn-bigger">
+                          select vehicle
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -247,9 +481,7 @@ class CarOption extends Component {
                   <i className="material-icons left">chevron_left</i>
                 </button>
                 <button className="button" onClick={this.next}>
-                  <i className="material-icons right  ">
-                    chevron_right
-                  </i>
+                  <i className="material-icons right  ">chevron_right</i>
                 </button>
               </div>
             </div>
