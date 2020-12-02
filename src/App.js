@@ -1,29 +1,22 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import HomeAbout from "./components/HomeAbout";
-import BuyCar from "./components/BuyCar";
-import CarOption from "./components/CarOption";
-import SellCar from "./components/SellCar";
-import Media from "./components/Media";
-import Partner from "./components/Partner";
-import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Faq from "./pages/Faq";
+import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <>
         <Navbar />
-        <Banner />
-        <HomeAbout />
-        <BuyCar />
-        <CarOption />
-        <SellCar />
-        <Media />
-        <Partner />
-        <Footer />
-      </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/faq' component={Faq} />
+        </Switch>
+      </>
     );
   }
 }

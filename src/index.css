@@ -180,6 +180,9 @@ h4 {
 .btn-full-width {
   width: 160px;
 }
+navbar-single-link {
+  color: red;
+}
 @media (min-width: 993px) {
   .container {
     width: 80% !important;

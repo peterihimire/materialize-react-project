@@ -4,6 +4,7 @@ import logoAlt from "../assets/logo-alt.svg";
 import logo from "../assets/logo.svg";
 import menuIcon from "../assets/menu-icon.svg";
 import M from "materialize-css/dist/js/materialize.min.js";
+import { NavLink, Link } from "react-router-dom";
 
 class Navbar extends Component {
   componentDidMount() {
@@ -19,9 +20,9 @@ class Navbar extends Component {
           <nav className="trans-nav" role="navigation">
             <div className=" container nav-wrapper">
               <div className="logo-container ">
-                <a href="/" className="brand-logo left">
+                <Link to="/" className="brand-logo left">
                   <img src={logo} alt="paymonthly" className="logo" />
-                </a>
+                </Link>
               </div>
 
               <a
@@ -35,18 +36,44 @@ class Navbar extends Component {
 
               <ul className="hide-on-med-and-down nav-center nav-links">
                 <li className="nav-item">
-                  <a className="black-text" href="about.html">
-                    Home
-                  </a>
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-single-link black-text"
+                    to="/"
+                  >
+                    home
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a href="/">About</a>
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-single-link"
+                    to="/about"
+                  >
+                    about
+                  </NavLink>
                 </li>
+                {/* <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-single-link"
+                    to="/sponsor"
+                  >
+                    sponsor
+                  </NavLink>
+                </li> */}
                 <li className="nav-item">
-                  <a href="/">Sponsor</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/">FAQs</a>
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-single-link"
+                    to="/faq"
+                  >
+                    FAQs
+                  </NavLink>
                 </li>
               </ul>
 
@@ -66,21 +93,40 @@ class Navbar extends Component {
 
         <ul className="sidenav" id="mobile-nav">
           <div className="sidenav-logo">
-            <a href="/">
+            <Link to="/">
               <img src={logoAlt} alt="paymonthly-logo" />
-            </a>
+            </Link>
           </div>
 
           <li className="nav-item">
-            <a className="" href="/">
+            <NavLink
+              exact
+              activeClassName="active"
+              className="navbar-single-link"
+              to="/"
+            >
               home
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="/">about</a>
+            <NavLink
+              exact
+              activeClassName="active"
+              className="navbar-single-link"
+              to="/about"
+            >
+              about
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="/">FAQs</a>
+            <NavLink
+              exact
+              activeClassName="active"
+              className="navbar-single-link"
+              to="/faq"
+            >
+              FAQs
+            </NavLink>
           </li>
           <li className="nav-item login-style">
             <a href="/" className="sidenav-login">
