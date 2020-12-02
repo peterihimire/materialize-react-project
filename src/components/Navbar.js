@@ -39,7 +39,7 @@ class Navbar extends Component {
                   <NavLink
                     exact
                     activeClassName="active"
-                    className="navbar-single-link black-text"
+                    className="navbar-single-link "
                     to="/"
                   >
                     Home
@@ -98,11 +98,11 @@ class Navbar extends Component {
             </Link>
           </div>
 
-          <li className="nav-item">
+          <li className="nav-item ">
             <NavLink
               exact
-              activeClassName="active"
-              className="navbar-single-link"
+              activeClassName="active-2"
+              className="navbar-single-link-2"
               to="/"
             >
               home
@@ -111,8 +111,8 @@ class Navbar extends Component {
           <li className="nav-item">
             <NavLink
               exact
-              activeClassName="active"
-              className="navbar-single-link"
+              activeClassName="active-2"
+              className="navbar-single-link-2"
               to="/about"
             >
               about
@@ -121,8 +121,8 @@ class Navbar extends Component {
           <li className="nav-item">
             <NavLink
               exact
-              activeClassName="active"
-              className="navbar-single-link"
+              activeClassName="active-2"
+              className="navbar-single-link-2"
               to="/faq"
             >
               FAQs
@@ -134,7 +134,7 @@ class Navbar extends Component {
             </a>
           </li>
           <li className="nav-item signup-style ">
-            <a href="/" className="  ">
+            <a href="/" className=" sidenav-signup ">
               sign up
             </a>
           </li>

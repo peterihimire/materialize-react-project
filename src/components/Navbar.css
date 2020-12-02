@@ -14,11 +14,11 @@ nav.trans-nav {
 nav {
   background-color: var(--mainWhite) !important;
 }
-nav .nav-login-group span a{
+nav .nav-login-group span a {
   color: var(--mainWhite) !important;
 }
 .nav-item a {
-  color: var(--mainBlack) !important;
+  color: var(--mainBlack);
 }
 .brand-logo img {
   width: 45%;
@@ -37,7 +37,6 @@ nav .sidenav-trigger {
 }
 .sidenav {
   background-color: var(--pry-color) !important;
-  color: var(--mainWhite) !important;
 }
 .sidenav-logo {
   padding: 2rem 32px;
@@ -53,6 +52,9 @@ nav .sidenav-trigger {
 }
 .signup-style {
   background-color: var(--sec-color);
+}
+.sidenav-signup{
+  color: var(--mainWhite) !important;
 }
 .login-style a {
   color: var(--pry-color) !important;
@@ -70,23 +72,50 @@ nav .sidenav-trigger {
   bottom: 70px;
   color: var(--mainWhite) !important;
 }
+
 .sidenav li > a {
   font-family: roboto-bold;
   font-size: 1.2rem !important;
   margin: 0.3rem 0 0 0;
   text-transform: capitalize !important;
-  color: var(--mainWhite) !important;
 }
 .sidenav-footer {
   margin: 100px 0 0 0;
   position: absolute;
   width: 100%;
   bottom: 70px;
-
   color: var(--mainWhite) !important;
 }
 .sidenav .sidenav-footer p {
   font-size: 0.5rem !important;
+}
+.navbar-single-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0 0 0 2rem;
+}
+.active {
+  color: var(--sec-color) !important;
+  background-color: transparent;
+  font-family: roboto-bold;
+}
+.navbar-single-link:hover {
+  color: var(--sec-color) !important;
+  background-color: transparent;
+}
+.navbar-single-link-2 {
+  color: var(--mainWhite) !important;
+  background-color: transparent;
+}
+.active-2 {
+  color: var(--sec-color) !important;
+  background-color: transparent;
+  font-family: roboto-bold;
+}
+.navbar-single-link-2:hover {
+  color: var(--sec-color) !important;
+  background-color: transparent;
 }
 @media only screen and (min-width: 601px) {
   .sidenav {

@@ -8,7 +8,7 @@
   display: inline-block;
   text-align: left;
   line-height: 30px;
-  height: 80px;
+  /* height: 120px !important; */
   padding: 0;
   margin: 0;
   text-transform: uppercase;
@@ -18,7 +18,7 @@
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  height: 80px !important;
+  height: 90px !important;
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
@@ -92,7 +92,8 @@
 .tab-text h6 {
   line-height: 20% !important;
   display: inline;
-  margin: 2rem 0 0 0;
+  margin: 1.4rem 0 0 0;
+  font-family: roboto-bold !important;
 }
 .tab-text p {
   margin: 0 !important;
@@ -113,6 +114,10 @@
 }
 .tab-icon-div i {
   color: var(--mainWhite) !important;
+}
+.answer {
+  color: var(--mainBlack) !important;
+  font-family: lato;
 }
 /* Tablet */
 @media (max-width: 992px) {
@@ -218,6 +223,7 @@
 .question {
   display: inline-block;
   padding: 0 25px;
+  color: var(--mainBlack) !important;
 }
 .collapsible-header .remove-icon {
   display: none;
