@@ -8,7 +8,7 @@ import Media from "../components/Media";
 import Partner from "../components/Partner";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <Banner />
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

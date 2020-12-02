@@ -42,7 +42,7 @@ class Navbar extends Component {
                     className="navbar-single-link black-text"
                     to="/"
                   >
-                    home
+                    Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -52,7 +52,7 @@ class Navbar extends Component {
                     className="navbar-single-link"
                     to="/about"
                   >
-                    about
+                    About
                   </NavLink>
                 </li>
                 {/* <li className="nav-item">

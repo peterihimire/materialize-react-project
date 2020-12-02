@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Faq from "./pages/Faq";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import FaqPage from "./pages/FaqPage";
 import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -12,9 +12,9 @@ class App extends Component {
       <>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/faq' component={Faq} />
+          <Route exact path="/" component={HomePage} />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/faq" component={FaqPage} />
         </Switch>
       </>
     );

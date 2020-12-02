@@ -1,14 +1,14 @@
 import React from "react";
-import HomeAbout from "../components/HomeAbout";
+import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 
-const About = () => {
+const FaqPage = () => {
   return (
     <>
-      <HomeAbout />
+      <Faq />
       <Footer />
     </>
   );
 };
 
-export default About;
+export default FaqPage;
