@@ -1,0 +1,236 @@
+.faq {
+  /* padding: 5rem 0; */
+  position: relative;
+  padding-top: 12%;
+}
+
+.tabs .tab {
+  display: inline-block;
+  text-align: left;
+  line-height: 30px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.tabs {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 80px !important;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+.tabs .tab a {
+  display: block;
+  background-color: var(--mainGrey);
+  width: 70% !important;
+  height: 100% !important;
+  padding: 0 24px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 80px !important;
+  /* line-height: 70px !important; */
+  -webkit-transition: color 0.28s ease, background-color 0.28s ease;
+  transition: color 0.28s ease, background-color 0.28s ease;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background-color: var(--pry-color) !important;
+}
+
+.tabs .tab a:hover .tab-icon-div,
+.tabs .tab a.active .tab-icon-div {
+  background-color: var(--mainWhite);
+  border-radius: 20px;
+}
+
+.tabs .tab a:hover .tab-icon-div i,
+.tabs .tab a.active .tab-icon-div i {
+  color: var(--pry-color) !important;
+}
+
+.tabs .tab a:hover .tab-text,
+.tabs .tab a.active .tab-text {
+  color: var(--mainWhite) !important;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: var(--pry-color);
+  outline: none;
+}
+
+.tabs .indicator {
+  position: absolute;
+  bottom: 0px;
+  height: 0px !important;
+  background-color: #0a50e7;
+  will-change: left, right;
+}
+.tab-click {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.tab-text {
+  color: var(--mainBlack);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 1rem;
+}
+
+.tab-text h6 {
+  line-height: 20% !important;
+  display: inline;
+  margin: 2rem 0 0 0;
+}
+.tab-text p {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline;
+  font-size: 10px !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.tab-icon-div {
+  padding: 1rem;
+  background-color: var(--pry-color);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 0 0;
+}
+.tab-icon-div i {
+  color: var(--mainWhite) !important;
+}
+/* Tablet */
+@media (max-width: 992px) {
+  section#about {
+    position: relative;
+    padding-top: 15%;
+  }
+  .tabs .tab a {
+    display: block;
+    background-color: var(--mainGrey);
+    width: 80%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color 0.28s ease, background-color 0.28s ease;
+    transition: color 0.28s ease, background-color 0.28s ease;
+  }
+}
+/* Phone */
+@media (max-width: 600px) {
+  section#about {
+    position: relative;
+    padding-top: 30%;
+  }
+  .tab-icon-div {
+    padding: 0.2rem;
+    background-color: var(--pry-color);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0 0 0;
+  }
+  .tabs .tab a {
+    display: block;
+    background-color: var(--mainGrey);
+    width: 70%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color 0.28s ease, background-color 0.28s ease;
+    transition: color 0.28s ease, background-color 0.28s ease;
+  }
+  .tabs .tab {
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+  .tabs {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+  .tab-text h6 {
+    line-height: 10% !important;
+    display: inline;
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+  }
+}
+
+.collapsible {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  box-shadow: none !important;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.collapsible-header i.material-icons.add-icon,
+.collapsible-header i.material-icons.remove-icon {
+  position: absolute;
+  left: 5px;
+  margin-right: 0;
+  top: 17px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.collapsible-body {
+  padding: 0.3rem 1rem;
+  background-color: #f4f4f5;
+  font-size: 14px;
+}
+.collapsible i {
+  color: var(--pry-color);
+}
+.question {
+  display: inline-block;
+  padding: 0 25px;
+}
+.collapsible-header .remove-icon {
+  display: none;
+}
+li.active .collapsible-header .remove-icon {
+  display: initial;
+}
+li.active .collapsible-header .add-icon {
+  display: none;
+}
+i.material-icons.disc-icon {
+  position: absolute;
+  top: 19px;
+  left: 2px;
+  font-size: 1rem;
+}
