@@ -53,7 +53,7 @@ nav .sidenav-trigger {
 .signup-style {
   background-color: var(--sec-color);
 }
-.sidenav-signup{
+.sidenav-signup {
   color: var(--mainWhite) !important;
 }
 .login-style a {
@@ -99,6 +99,7 @@ nav .sidenav-trigger {
   color: var(--sec-color) !important;
   background-color: transparent;
   font-family: roboto-bold;
+  font-size: 1.2rem;
 }
 .navbar-single-link:hover {
   color: var(--sec-color) !important;
