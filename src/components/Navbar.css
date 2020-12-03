@@ -93,10 +93,10 @@ nav .sidenav-trigger {
   text-decoration: none;
   text-transform: capitalize;
   cursor: pointer;
-  margin: 0 0 0 2rem;
+  margin: 0 1rem;
 }
 .active {
-  color: var(--sec-color) !important;
+  color: var(--pry-color) !important;
   background-color: transparent;
   font-family: roboto-bold;
   font-size: 1.2rem;
