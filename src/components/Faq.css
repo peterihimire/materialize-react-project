@@ -121,7 +121,7 @@
 }
 /* Tablet */
 @media (max-width: 992px) {
-  section#about {
+  .faq {
     position: relative;
     padding-top: 15%;
   }
@@ -141,7 +141,7 @@
 }
 /* Phone */
 @media (max-width: 600px) {
-  section#about {
+  .faq {
     position: relative;
     padding-top: 30%;
   }
