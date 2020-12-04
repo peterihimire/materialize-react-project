@@ -55,16 +55,7 @@ class Navbar extends Component {
                     About
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  <NavLink
-                    exact
-                    activeClassName="active"
-                    className="navbar-single-link"
-                    to="/sponsor"
-                  >
-                    sponsor
-                  </NavLink>
-                </li> */}
+
                 <li className="nav-item">
                   <NavLink
                     exact
@@ -73,6 +64,16 @@ class Navbar extends Component {
                     to="/faq"
                   >
                     FAQs
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-single-link"
+                    to="/contact"
+                  >
+                    Contact
                   </NavLink>
                 </li>
               </ul>
