@@ -1,0 +1,55 @@
+.error-comp {
+  position: relative;
+  padding: 12% 0 0 0;
+  color: var(--mainWhite);
+  background-color: var(--pry-color);
+  height: 100vh;
+}
+.error-comp h1,h2{
+  text-transform: uppercase;
+}
+.notfound {
+  color: var(--sec-color);
+  padding: 0 2rem;
+}
+.error-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .error-comp {
+    position: relative;
+    padding: 15% 0 0 0;
+    color: var(--mainWhite);
+    background-color: var(--pry-color);
+    height: 100vh;
+  }
+  .error-comp h1{
+    font-size: 4rem;
+  }
+  .error-comp h2{
+    font-size: 3rem;
+  }
+  .error-comp h3{
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .error-comp {
+    position: relative;
+    padding: 20% 0 0 0;
+    color: var(--mainWhite);
+    background-color: var(--pry-color);
+    height: 100vh;
+  }
+  .error-comp h1{
+    font-size: 3rem;
+  }
+  .error-comp h2{
+    font-size: 2rem;
+  }
+  .error-comp h3{
+    font-size: 1.5rem;
+  }
+}
