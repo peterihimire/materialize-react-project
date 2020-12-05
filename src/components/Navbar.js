@@ -129,6 +129,16 @@ class Navbar extends Component {
               FAQs
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              activeClassName="active-2"
+              className="navbar-single-link-2"
+              to="/contact"
+            >
+              contact
+            </NavLink>
+          </li>
           <li className="nav-item login-style">
             <a href="/" className="sidenav-login">
               log in
