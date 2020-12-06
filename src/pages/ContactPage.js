@@ -1,9 +1,9 @@
 import React from "react";
-import Contact from "../components/Contact";
-
+// import Contact from "../components/Contact";
+import Modally from '../components/Modally';
 
 const ContactPage = () => {
-  return <Contact />;
+  return <Modally />;
 };
 
 export default ContactPage;

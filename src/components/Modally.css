@@ -1,0 +1,20 @@
+.modal-section {
+  position: relative;
+  padding-top: 20%;
+}
+.modal2 {
+  width: 100% !important;
+  height: 100vh !important;
+  top: 0;
+  max-height: initial;
+}
+.modal-bg {
+  /* background-image: url(../assets/full-modal.svg); */
+  /* background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 41%;
+  height: 100%;
+  top: 0;
+  left: 0; */
+}

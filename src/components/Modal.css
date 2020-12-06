@@ -1,0 +1,33 @@
+
+
+.modal {
+  width: 100% !important;
+  height: 100vh !important;
+  max-height: initial !important;
+  top: 0 !important;
+}
+.modal-bg-div {
+  position: absolute;
+  width: 41%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(../assets//full-modal.svg);
+  background-size: cover;
+  background-position: center;
+}
+img.modal-logo {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+.modal form {
+  margin-top: 25%;
+}
+
+@media (max-width: 600px) {
+  .modal-bg-div {
+    display: none;
+  }
+}
