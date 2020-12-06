@@ -5,12 +5,16 @@ import logo from "../assets/logo.svg";
 import menuIcon from "../assets/menu-icon.svg";
 import M from "materialize-css/dist/js/materialize.min.js";
 import { NavLink, Link } from "react-router-dom";
+// import Modal from "../components/Modal";
 
 class Navbar extends Component {
   componentDidMount() {
     // sidenav
     const sideNav = document.querySelector(".sidenav");
     M.Sidenav.init(sideNav, {});
+    // Modal
+    const modalTrigger = document.querySelector(".modal");
+    M.Modal.init(modalTrigger, {});
   }
 
   render() {
@@ -82,8 +86,11 @@ class Navbar extends Component {
                 <li className="nav-item nav-login-group">
                   <a href="/">Log In</a>
                   <span>
-                    <a href="/" className="btn nav-btn ">
-                      Sign Up
+                    <a
+                      href="#get-started"
+                      className=" modal-trigger  btn nav-btn "
+                    >
+                      Get Started
                     </a>
                   </span>
                 </li>
@@ -145,8 +152,8 @@ class Navbar extends Component {
             </a>
           </li>
           <li className="nav-item signup-style ">
-            <a href="/" className=" sidenav-signup ">
-              sign up
+            <a href="#get-started" className=" modal-trigger sidenav-signup ">
+              get started
             </a>
           </li>
 
@@ -176,6 +183,15 @@ class Navbar extends Component {
             </div>
           </div>
         </ul>
+        {/* This is the modal for get-started button */}
+        <div className="modal" id="get-started">
+          <div className="modal-content">
+            <div className="row">
+              <h3>This is a modal...</h3>
+            </div>
+          </div>
+        </div>
+        {/* <Modal id="get-started" /> */}
       </>
     );
   }
