@@ -21,7 +21,7 @@ class Faq extends React.Component {
                     <div className="tab-click">
                       <div className="tab-icon-div">
                         <i className="material-icons black-text">
-                          {/* add_shopping_cart */}cart
+                          add_shopping_cart
                         </i>
                       </div>
                       <div className="tab-text hidden-xs">
