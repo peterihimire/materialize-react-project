@@ -3,7 +3,13 @@
   position: relative;
   padding-top: 7%;
 }
-
+.faq-header{
+  padding: 0 0 2rem 0;
+}
+.faq-header h3 {
+  color: var(--pry-color);
+  font-family: roboto-bold;
+}
 .tabs .tab {
   display: inline-block;
   text-align: left;

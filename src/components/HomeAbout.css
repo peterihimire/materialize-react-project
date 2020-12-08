@@ -29,6 +29,9 @@
   left: 0;
   border-bottom: 3px solid var(--sec-color);
 }
+.home-about-image-container {
+  padding: 2rem 0 0 0;
+}
 @media (max-width: 600px) {
   .home-about-header h3 {
     display: inline-block;

@@ -71,7 +71,7 @@ class Navbar extends Component {
                     FAQs
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink
                     exact
                     activeClassName="active"
@@ -80,7 +80,7 @@ class Navbar extends Component {
                   >
                     Contact
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
 
               <ul className="hide-on-med-and-down right nav-links">
@@ -137,7 +137,7 @@ class Navbar extends Component {
               FAQs
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               activeClassName="active-2"
@@ -146,7 +146,7 @@ class Navbar extends Component {
             >
               contact
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item login-style">
             <a href="/" className="sidenav-login">
               log in

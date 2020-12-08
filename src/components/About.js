@@ -19,19 +19,22 @@ const HomeAbout = () => {
                       I had the best experience shopping with vasiti. Usability
                       of the website was great, very good customer service, an
                       all round great experience. I would definately be coming
-                      back!
+                      back! I had the best experience shopping with vasiti.
+                      Usability of the website was great, very good customer
+                      service, an all round great experience. I would definately
+                      be coming back!
                     </p>
                     <p>
                       I had the best experience shopping with vasiti. Usability
                       of the website was great, very good customer service, an
                       all round great experience. I would definately be coming
-                      back!
-                    </p>
-                    <p>
-                      I had the best experience shopping with vasiti. Usability
-                      of the website was great, very good customer service, an
-                      all round great experience. I would definately be coming
-                      back!
+                      back! I had the best experience shopping with vasiti.
+                      Usability of the website was great, very good customer
+                      service, an all round great experience. I would definately
+                      be coming back! I had the best experience shopping with
+                      vasiti. Usability of the website was great, very good
+                      customer service, an all round great experience. I would
+                      definately be coming back!
                     </p>
                   </div>
                 </div>
