@@ -14,6 +14,10 @@ class Faq extends React.Component {
       <section className="faq">
         <div className="container">
           <div className="row">
+            <div className='faq-header'>
+              <h3 className="center">Hello, how can we help you ?</h3>
+            </div>
+
             <div className="col s12">
               <ul className="tabs">
                 <li className="tab col s4">
@@ -119,21 +123,6 @@ class Faq extends React.Component {
                         </p>
                       </div>
                     </li>
-
-                    <li>
-                      <div className="collapsible-header">
-                        <i className="material-icons">filter_drama</i>This is
-                        for the first tab, this shit makes sense when you start
-                        to grab them.
-                      </div>
-                      <div className="collapsible-body">
-                        <span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Quo quam consectetur quos amet ipsum et
-                          voluptatibus quis dolores placeat obcaecati.
-                        </span>
-                      </div>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -196,20 +185,6 @@ class Faq extends React.Component {
                         </p>
                       </div>
                     </li>
-
-                    <li>
-                      <div className="collapsible-header">
-                        <i className="material-icons">filter_drama</i>This is
-                        for the second tab, ok...
-                      </div>
-                      <div className="collapsible-body">
-                        <span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Quo quam consectetur quos amet ipsum et
-                          voluptatibus quis dolores placeat obcaecati.
-                        </span>
-                      </div>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -270,20 +245,6 @@ class Faq extends React.Component {
                           Yes you can, some penalties would apply for the
                           inconvenience, however you can at any point.
                         </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div className="collapsible-header">
-                        <i className="material-icons">filter_drama</i>This is
-                        for the third tab, I hope you can relate this shit.
-                      </div>
-                      <div className="collapsible-body">
-                        <span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Quo quam consectetur quos amet ipsum et
-                          voluptatibus quis dolores placeat obcaecati.
-                        </span>
                       </div>
                     </li>
                   </ul>

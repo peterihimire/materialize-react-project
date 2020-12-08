@@ -1,0 +1,43 @@
+.about {
+  /* padding: 3rem 0rem; */
+  position: relative;
+  padding-top: 12%;
+  padding-bottom: 2rem;
+}
+
+.about-header h3 {
+  display: inline-block;
+  padding: 0 0 0.7rem 0;
+  position: relative;
+  color: var(--pry-color);
+  font-size: 35px;
+}
+.about-header h3 span {
+  background-color: var(--sec-color);
+  color: var(--mainWhite);
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+.about-header p {
+  font-weight: bold;
+  color: var(--pry-color);
+  font-family: roboto;
+}
+.about-header h3::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid var(--sec-color);
+}
+@media (max-width: 600px) {
+  .about-header h3 {
+    display: inline-block;
+    padding: 0 0 0.7rem 0;
+    position: relative;
+    color: var(--pry-color);
+    font-size: 30px;
+  }
+}

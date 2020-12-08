@@ -1,7 +1,7 @@
 .faq {
   /* padding: 5rem 0; */
   position: relative;
-  padding-top: 12%;
+  padding-top: 7%;
 }
 
 .tabs .tab {
@@ -123,7 +123,7 @@
 @media (max-width: 992px) {
   .faq {
     position: relative;
-    padding-top: 15%;
+    padding-top: 10%;
   }
   .tabs .tab a {
     display: block;

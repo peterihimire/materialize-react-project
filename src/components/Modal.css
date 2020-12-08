@@ -1,5 +1,3 @@
-
-
 .modal {
   width: 100% !important;
   height: 100vh !important;
@@ -23,9 +21,12 @@ img.modal-logo {
   top: 7px;
 }
 .modal form {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
+.modal-close {
+  padding: 4rem 0 0 0;
+}
 @media (max-width: 600px) {
   .modal-bg-div {
     display: none;

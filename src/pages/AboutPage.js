@@ -1,11 +1,11 @@
 import React from "react";
-import HomeAbout from "../components/HomeAbout";
+import About from "../components/About";
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
   return (
     <>
-      <HomeAbout />
+      <About />
       <Footer />
     </>
   );
