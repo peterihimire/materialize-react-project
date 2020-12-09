@@ -51,40 +51,40 @@ class Banner extends Component {
         instance.next();
       }, instance.options.autoScroll);
 
-      instance.el.addEventListener("mouseover", carouselMouseOverTouchStart, {
-        passive: true,
-      });
-      instance.el.addEventListener("mouseleave", carouselMouseOutTouchEnd, {
-        passive: true,
-      });
-      instance.el.addEventListener("touchstart", carouselMouseOverTouchStart, {
-        passive: true,
-      });
-      instance.el.addEventListener("touchend", carouselMouseOutTouchEnd, {
-        passive: true,
-      });
+      // instance.el.addEventListener("mouseover", carouselMouseOverTouchStart, {
+      //   passive: true,
+      // });
+      // instance.el.addEventListener("mouseleave", carouselMouseOutTouchEnd, {
+      //   passive: true,
+      // });
+      // instance.el.addEventListener("touchstart", carouselMouseOverTouchStart, {
+      //   passive: true,
+      // });
+      // instance.el.addEventListener("touchend", carouselMouseOutTouchEnd, {
+      //   passive: true,
+      // });
     }
 
-    function carouselMouseOverTouchStart() {
-      const instance = M.Carousel.getInstance(this);
-      if (!instance) return;
+    // function carouselMouseOverTouchStart() {
+    //   const instance = M.Carousel.getInstance(this);
+    //   if (!instance) return;
 
-      if (instance.autoScrollIntervalId) {
-        window.clearInterval(instance.autoScrollIntervalId);
-        instance.autoScrollIntervalId = undefined;
-      }
-    }
+    //   if (instance.autoScrollIntervalId) {
+    //     window.clearInterval(instance.autoScrollIntervalId);
+    //     instance.autoScrollIntervalId = undefined;
+    //   }
+    // }
 
-    function carouselMouseOutTouchEnd() {
-      const instance = M.Carousel.getInstance(this);
-      if (!instance) return;
+    // function carouselMouseOutTouchEnd() {
+    //   const instance = M.Carousel.getInstance(this);
+    //   if (!instance) return;
 
-      if (!instance.autoScrollIntervalId) {
-        instance.autoScrollIntervalId = window.setInterval(() => {
-          instance.next();
-        }, instance.options.autoScroll);
-      }
-    }
+    //   if (!instance.autoScrollIntervalId) {
+    //     instance.autoScrollIntervalId = window.setInterval(() => {
+    //       instance.next();
+    //     }, instance.options.autoScroll);
+    //   }
+    // }
 
     // if searching for an element by id, insert a # in front of the passed in id
     function getElements(elms) {
