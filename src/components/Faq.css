@@ -151,6 +151,11 @@
     position: relative;
     padding-top: 30%;
   }
+  .faq-header h3 {
+    color: var(--pry-color);
+    font-family: roboto-bold;
+    font-size: 1.5rem;
+  }
   .tab-icon-div {
     padding: 0.2rem;
     background-color: var(--pry-color);
@@ -158,7 +163,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem 0 0 0;
+    margin: 1.8rem 0 0 0;
   }
   .tabs .tab a {
     display: block;
