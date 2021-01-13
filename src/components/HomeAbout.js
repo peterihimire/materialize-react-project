@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeAbout.css";
-import pix from "../assets/undraw-2.svg";
+import pix from "../assets/lady-mask.png";
 
 const HomeAbout = () => {
   return (
@@ -8,7 +8,7 @@ const HomeAbout = () => {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <div className="col s12 m5">
+            <div className="col s12 m7 l5">
               <div className="hxs">
                 <div className="home-about-text-container">
                   <div className="home-about-header">
@@ -40,7 +40,7 @@ const HomeAbout = () => {
                 </div>
               </div>
             </div>
-            <div className="col s12 m5 offset-m2">
+            <div className="col s12 m5 offset-m0 l5 offset-l2">
               <div className="hxs">
                 <div className="home-about-image-container">
                   <img src={pix} alt="person" width="100%" />

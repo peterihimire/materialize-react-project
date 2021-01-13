@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import pix from "../assets/undraw-5.svg";
+import pix from "../assets/three-on-mask.png";
 
 const HomeAbout = () => {
   return (
@@ -8,11 +8,16 @@ const HomeAbout = () => {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <div className="col s12 m5">
+            <div className="col s12 m7 l5">
               <div className="hxs">
                 <div className="about-text-container">
                   <div className="about-header">
                     <h3>Our Vision</h3>
+                  </div>
+                  <div className="visible-xs">
+                    <div className="about-image-container">
+                      <img src={pix} alt="person" width="100%" />
+                    </div>
                   </div>
                   <div className="about-text-content">
                     <p className="">
@@ -40,8 +45,8 @@ const HomeAbout = () => {
                 </div>
               </div>
             </div>
-            <div className="col s12 m5 offset-m2">
-              <div className="hxs">
+            <div className="col s12 m5 offset-m0 l5 offset-l2">
+              <div className="hidden-xs">
                 <div className="about-image-container">
                   <img src={pix} alt="person" width="100%" />
                 </div>

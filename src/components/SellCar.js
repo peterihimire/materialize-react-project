@@ -1,6 +1,6 @@
 import React from "react";
 import "./SellCar.css";
-import image from "../assets/undraw-4.svg";
+import image from "../assets/sell-car.png";
 
 const SellCar = () => {
   return (
@@ -8,7 +8,7 @@ const SellCar = () => {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <div className="col s12 m5">
+            <div className="col s12 m7 l5">
               <div className="hxs">
                 <div className="sellcar-text-container">
                   <div className="sellcar-header">
@@ -34,7 +34,7 @@ const SellCar = () => {
                 </div>
               </div>
             </div>
-            <div className="col s12 m5 offset-m2">
+            <div className="col s12 m5 offset-m0 l5 offset-l2">
               <div className="sellcar-img-container">
                 <img src={image} className="" alt="car" width="100%" />
               </div>

@@ -31,4 +31,7 @@
     color: var(--pry-color);
     font-size: 30px;
   }
+  .sellcar-img-container {
+    padding: 2rem 0 0 0;
+  }
 }

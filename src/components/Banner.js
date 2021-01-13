@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Banner.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import bannerOne from "../assets/banner-1.svg";
-import bannerTwo from "../assets/banner-2.svg";
+import bannerTwo from "../assets/banner-2.png";
 
 class Banner extends Component {
   componentDidMount() {
@@ -105,9 +105,12 @@ class Banner extends Component {
             <div className="carousel carousel-slider full-height">
               <div className="carousel-item">
                 <div className="col s12 pad0 center-xs">
-                  <div className="col s12 m5 ">
+                  <div className="col s12 m7 l5 ">
                     <div className="main-text-container">
-                      <h1>Amazing Experiences from Our Wonderful Customers</h1>
+                      <h1>
+                        Pay for that car in monthly installments and drive off
+                        from your first payment.
+                      </h1>
                       <p className="hidden-xs">
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
@@ -115,8 +118,8 @@ class Banner extends Component {
                       <div className="btn hidden-xs btn-bigger">buy a car</div>
                     </div>
                   </div>
-                  <div className="col s12 m5 offset-m2">
-                    <div className="rel right-align">
+                  <div className="col s12 m5 offset-m0 l5 offset-l2">
+                    <div className="rel right-align banner-home-img">
                       <img
                         src={bannerTwo}
                         alt="banner-img-1"
@@ -135,9 +138,12 @@ class Banner extends Component {
               </div>
               <div className="carousel-item">
                 <div className="col s12 pad0 center-xs">
-                  <div className="col s12 m5">
+                  <div className="col s12 m7 l5">
                     <div className="main-text-container">
-                      <h1>Amazing Experiences from Our Wonderful Customers</h1>
+                      <h1>
+                        Pay for that car in monthly installments and drive off
+                        from your first payment.
+                      </h1>
                       <p className="hidden-xs">
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
@@ -145,8 +151,8 @@ class Banner extends Component {
                       <div className="btn hidden-xs btn-bigger">buy a car</div>
                     </div>
                   </div>
-                  <div className="col s12 m5 offset-m2">
-                    <div className="rel right-align">
+                  <div className="col s12 m5 offset-m0 l5 offset-l2">
+                    <div className="rel right-align banner-home-img">
                       <img
                         src={bannerOne}
                         alt="banner-img-1"

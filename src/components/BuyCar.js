@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./BuyCar.css";
-import image from "../assets/undraw-3.svg";
+import image from "../assets/bought-car.png";
 
 class BuyCar extends Component {
   render() {
@@ -9,14 +9,14 @@ class BuyCar extends Component {
         <div className="container">
           <div className="row">
             <div className="col s12">
-              <div className="col s12 m5 ">
+              <div className="col s12 m5 l5 ">
                 <div className="hidden-xs">
                   <div className="buycar-image-container">
                     <img src={image} alt="person" width="100%" />
                   </div>
                 </div>
               </div>
-              <div className="col s12 m5 offset-m2">
+              <div className="col s12 m7 offset-m0 l5 offset-l2">
                 <div className="hxs">
                   <div className="buycar-text-container">
                     <div className="buycar-header">

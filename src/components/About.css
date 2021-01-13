@@ -37,7 +37,7 @@
   margin: 0;
 }
 .about-image-container {
-  padding: 3rem 0 0 0;
+  padding: 3rem 0 0rem 0;
 }
 @media (max-width: 600px) {
   .about-header h3 {
@@ -46,5 +46,8 @@
     position: relative;
     color: var(--pry-color);
     font-size: 30px;
+  }
+  .about-image-container {
+    padding: 3rem 0 2rem 0;
   }
 }

@@ -20,11 +20,17 @@
   left: 0;
   border-bottom: 3px solid var(--sec-color);
 }
+.buycar-image-container {
+  padding: 2rem 0 0 0;
+}
 @media (max-width: 600px) {
   .buycar-header h3 {
     display: inline-block;
     padding: 0 0 0.7rem 0;
     position: relative;
     font-size: 30px;
+  }
+  .buycar-image-container {
+    padding: 2rem 0 0 0;
   }
 }
