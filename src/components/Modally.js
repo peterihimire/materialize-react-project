@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
-// import logoAlt from "../assets/logo-alt.svg";
-// import x from "../assets/x.svg";
+import logoAlt from "../assets/logo-alt.svg";
+import x from "../assets/x.svg";
 import "./Modally.css";
 
 class Modally extends Component {
@@ -13,7 +13,7 @@ class Modally extends Component {
   render() {
     return (
       <>
-        {/* <div id="get" className="modal2">
+        <div id="log-in" className="modal2">
           <div className="modal-content">
             <div className="row">
               <div className="container black-txt">
@@ -38,7 +38,7 @@ class Modally extends Component {
                       />
                     </a>
                     <img
-                      src="img/back-icon.svg"
+                      src={x}
                       alt="close modal"
                       className="modal-close cursor"
                     />
@@ -91,7 +91,7 @@ class Modally extends Component {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </>
     );
   }

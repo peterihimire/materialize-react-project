@@ -9,14 +9,14 @@
   max-height: initial;
 }
 .modal-bg {
-  /* background-image: url(../assets/full-modal.svg); */
-  /* background-size: cover;
+  background-image: url(../assets/full-modal.svg);
+  background-size: cover;
   background-position: center;
   position: absolute;
   width: 41%;
   height: 100%;
   top: 0;
-  left: 0; */
+  left: 0;
 }
 .modal2 form{
   padding: 7rem 0 0 0;

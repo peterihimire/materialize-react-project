@@ -7,6 +7,7 @@ import x from "../assets/x.svg";
 import menuIcon from "../assets/menu-icon.svg";
 import M from "materialize-css/dist/js/materialize.min.js";
 import { NavLink, Link } from "react-router-dom";
+import Modally from "../components/Modally";
 
 class Navbar extends Component {
   componentDidMount() {
@@ -16,6 +17,9 @@ class Navbar extends Component {
     // Modal
     const modalTrigger = document.querySelector(".modal");
     M.Modal.init(modalTrigger, {});
+    // // Modal2
+    // const modalTrigger2 = document.querySelector(".modal2");
+    // M.Modal.init(modalTrigger2, {});
   }
 
   render() {
@@ -85,7 +89,9 @@ class Navbar extends Component {
 
               <ul className="hide-on-med-and-down right nav-links">
                 <li className="nav-item nav-login-group">
-                  <a href="/">Log In</a>
+                  <a href="#log-in" className="modal-trigger">
+                    Log In
+                  </a>
                   <span>
                     <a
                       href="#get-started"
@@ -148,7 +154,7 @@ class Navbar extends Component {
             </NavLink>
           </li> */}
           <li className="nav-item login-style">
-            <a href="/" className="sidenav-login">
+            <a href="#log-in" className="modal-trigger sidenav-login">
               log in
             </a>
           </li>
@@ -217,7 +223,7 @@ class Navbar extends Component {
                     />
                   </div>
                   <form action="https://paymonthlycars.com/login" method="POST">
-                    <h4 className="modal-title sec-title">Login</h4>
+                    <h4 className="modal-title sec-title">Join Us</h4>
                     <div className="row">
                       <div className="col s12">
                         <div className="input-field col s12 m10 l7 pad0">
@@ -260,6 +266,82 @@ class Navbar extends Component {
             </div>
           </div>
         </div>
+        <Modally />
+        {/* This is the modal for login button */}
+        {/* <div id="log-in" className="modal2">
+          <div className="modal-content">
+            <div className="row">
+              <div className="container black-txt">
+                <div className="col s12 m5">
+                  <div className="modal-bg-div">
+                    <a href="/" className="hidden-xs">
+                      <img
+                        src={logoAlt}
+                        alt="Paymonthly Cars"
+                        className="modal-logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="col s12 m7 rel m-c">
+                  <div className="close-div right-align-xs rel">
+                    <a href="/" class="visible-xs">
+                      <img
+                        src={logo}
+                        alt="Paymonthly Cars"
+                        className="modal-logo"
+                      />
+                    </a>
+                    <img
+                      src={x}
+                      alt="close modal"
+                      className="modal-close cursor"
+                    />
+                  </div>
+                  <form action="https://paymonthlycars.com/login" method="POST">
+                    <h4 className="modal-title sec-title">Login</h4>
+                    <div className="row">
+                      <div className="col s12">
+                        <div className="input-field col s12 m6  pad0">
+                          <input
+                            type="email"
+                            id="email"
+                            value=""
+                            name="email"
+                            required
+                          />
+                          <label for="email">First Name</label>
+                        </div>
+                      </div>
+                      <div className="col s12">
+                        <div className="input-field col s12 m6  pad0">
+                          <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            value=""
+                            required
+                          />
+                          <label for="password">Last Name</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="row mgd">
+                      <div className="col s12">
+                        <div>
+                          <button type="submit" className="btn btn-bigger">
+                            Continue
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </>
     );
   }

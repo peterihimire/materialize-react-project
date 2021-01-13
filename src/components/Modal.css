@@ -4,13 +4,19 @@
   max-height: initial !important;
   top: 0 !important;
 }
+.modal2 {
+  width: 100% !important;
+  height: 100vh !important;
+  max-height: initial !important;
+  top: 0 !important;
+}
 .modal-bg-div {
   position: absolute;
   width: 41%;
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(../assets//full-modal.svg);
+  background-image: url(../assets/full-modal.svg);
   background-size: cover;
   background-position: center;
 }
@@ -23,8 +29,14 @@ img.modal-logo {
 .modal form {
   margin-top: 20%;
 }
+.modal2 form {
+  margin-top: 20%;
+}
 
 .modal-close {
+  padding: 4rem 0 0 0;
+}
+.modal2-close {
   padding: 4rem 0 0 0;
 }
 @media (max-width: 600px) {
