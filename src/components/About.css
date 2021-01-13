@@ -50,4 +50,7 @@
   .about-image-container {
     padding: 3rem 0 2rem 0;
   }
+  .about-text-container{
+    padding: 2rem 0 0 0;
+  }
 }
