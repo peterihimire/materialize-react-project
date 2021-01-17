@@ -1,11 +1,3 @@
-/* .main-text-container {
-  color: var(--mainBlack) !important;
-}
-
-.main-text-container h1 {
-  font-size: 2rem !important;
-} */
-
 section.home {
   position: relative !important;
   height: 80vh;
@@ -30,7 +22,7 @@ div.carousel-item {
   font-family: lato;
 }
 .main-text-container h1 {
-  font-size: 57px;
+  font-size: 50px;
   margin: 0.8rem 0 1.68rem 0;
   color: var(--pry-color);
 }
