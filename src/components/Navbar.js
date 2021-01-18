@@ -9,6 +9,7 @@ import menuIcon from "../assets/menu-icon.svg";
 import M from "materialize-css/dist/js/materialize.min.js";
 import { NavLink, Link } from "react-router-dom";
 import ModalLogin from "../components/ModalLogin";
+
 class Navbar extends Component {
   componentDidMount() {
     // sidenav
@@ -20,10 +21,16 @@ class Navbar extends Component {
   }
 
   render() {
+    console.log(this.props);
+    const { defNavColor } = this.props;
+
     return (
       <>
         <div className="navbar">
-          <nav className="trans-nav" role="navigation">
+          <nav
+            className={defNavColor ? "trans-nav nav-color" : "trans-nav"}
+            role="navigation"
+          >
             <div className=" container nav-wrapper">
               <div className="logo-container ">
                 <Link to="/" className="brand-logo left">
@@ -87,7 +94,7 @@ class Navbar extends Component {
               <ul className="hide-on-med-and-down right nav-links">
                 <li className="nav-item nav-login-group">
                   <a
-                    // href="#log-in"
+                    href="#modal-login"
                     className="modal-trigger"
                     data-target="modal-login"
                   >

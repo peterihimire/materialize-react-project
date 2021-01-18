@@ -1,19 +1,25 @@
 nav.trans-nav {
   position: fixed;
-  /* background-color: transparent; */
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   z-index: 10;
   height: 64px;
   box-shadow: none;
+
 }
 
 .nav-login-group {
   display: flex;
 }
 
-nav {
+
+/* color nav */
+nav.nav-color {
   background-color: var(--mainWhite) !important;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
+
+
+/* end of color nav */
 nav .nav-login-group span a {
   color: var(--mainWhite) !important;
 }
