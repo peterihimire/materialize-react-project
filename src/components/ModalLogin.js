@@ -2,18 +2,47 @@ import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 import logoAlt from "../assets/logo-alt.svg";
 import x from "../assets/x.svg";
-import "./Modally.css";
+import "./ModalLogin.css";
 
-class Modally extends Component {
+class ModalLogin extends Component {
   componentDidMount() {
-    // Modal
-    const modalTrig = document.querySelector(".modal2");
-    M.Modal.init(modalTrig, {});
+    const options = {
+      onOpenStart: () => {
+        console.log("Open Start");
+      },
+      onOpenEnd: () => {
+        console.log("Open End");
+      },
+      onCloseStart: () => {
+        console.log("Close Start");
+      },
+      onCloseEnd: () => {
+        console.log("Close End");
+      },
+      inDuration: 250,
+      outDuration: 250,
+      opacity: 0.5,
+      dismissible: false,
+      startingTop: "4%",
+      endingTop: "10%",
+    };
+    M.Modal.init(this.Modal, options);
+    // If you want to work on instance of the Modal then you can use the below code snippet
+    // let instance = M.Modal.getInstance(this.Modal);
+    // instance.open();
+    // instance.close();
+    // instance.destroy();
   }
   render() {
     return (
       <>
-        <div id="log-in" className="modal2">
+        <div
+          ref={(Modal) => {
+            this.Modal = Modal;
+          }}
+          id="modal-login"
+          className="modal"
+        >
           <div className="modal-content">
             <div className="row">
               <div className="container black-txt">
@@ -80,7 +109,7 @@ class Modally extends Component {
                     <div className="row mgd">
                       <div className="col s12">
                         <div>
-                          <button type="submit" className="submit-btn">
+                          <button type="submit" className="btn btn-bigger">
                             Login
                           </button>
                         </div>
@@ -97,4 +126,4 @@ class Modally extends Component {
   }
 }
 
-export default Modally;
+export default ModalLogin;
