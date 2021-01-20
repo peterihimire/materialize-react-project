@@ -18,6 +18,7 @@ class App extends Component {
       this.navColorHandler();
     });
   }
+  // FOR NAV COLOR
   navColorHandler = () => {
     let position = window.pageYOffset;
     console.log(position);
