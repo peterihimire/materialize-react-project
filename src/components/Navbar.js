@@ -196,7 +196,7 @@ class Navbar extends Component {
                 </a>
               </div> */}
               <div className="white-txt bold-txt">
-                <p>©COPYRIGHT PAYMONTHLYCARS.COM 2020</p>
+                <p>©COPYRIGHT PAYMONTHLYCARS 2020</p>
               </div>
             </div>
           </div>
