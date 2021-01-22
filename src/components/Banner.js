@@ -104,7 +104,7 @@ class Banner extends Component {
           <div className="container full-height">
             <div className="carousel carousel-slider full-height">
               <div className="carousel-item">
-                <div className="col s12 pad0 center-xs">
+                <div className="col s12 pad0 center-sm">
                   <div className="col s12 m7 l5 ">
                     <div className="main-text-container">
                       <h1>
@@ -137,7 +137,7 @@ class Banner extends Component {
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="col s12 pad0 center-xs">
+                <div className="col s12 pad0 center-sm">
                   <div className="col s12 m7 l5">
                     <div className="main-text-container">
                       <h1>

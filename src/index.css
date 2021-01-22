@@ -171,9 +171,7 @@ h4 {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.center-sm {
-  text-align: center;
-}
+
 .btn {
   background-color: var(--sec-color) !important;
   color: var(--mainWhite) !important;
@@ -216,5 +214,8 @@ navbar-single-link {
   }
   .btn-full-width {
     width: 100%;
+  }
+  .center-sm {
+    text-align: center;
   }
 }

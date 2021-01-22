@@ -133,6 +133,7 @@ a.middle-indicator-text {
   color: var(--mainWhite) !important;
   background: var(--pry-color) !important;
   margin: 0 0.5rem !important;
+  border: none;
 }
 i.left {
   float: left;

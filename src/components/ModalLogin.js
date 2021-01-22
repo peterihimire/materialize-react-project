@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
+import logo from "../assets/logo.svg";
 import logoAlt from "../assets/logo-alt.svg";
 import x from "../assets/x.svg";
 import "./ModalLogin.css";
@@ -51,7 +52,7 @@ class ModalLogin extends Component {
                     <a href="/" className="hidden-xs">
                       <img
                         src={logoAlt}
-                        alt="Paymonthly Cars"
+                        alt="Paymonthly-cars"
                         className="modal-logo"
                       />
                     </a>
@@ -61,7 +62,7 @@ class ModalLogin extends Component {
                   <div className="close-div right-align-xs rel">
                     <a href="/" class="visible-xs">
                       <img
-                        src="img/paymonthlycars-1.svg"
+                        src={logo}
                         alt="Paymonthly Cars"
                         className="modal-logo"
                       />

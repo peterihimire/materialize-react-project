@@ -85,4 +85,10 @@ footer .footer-content-one ul {
     justify-content: center;
     align-items: center;
   }
+  footer .footer-content-one h6 {
+    font-family: roboto-bold;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
 }

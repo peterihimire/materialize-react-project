@@ -165,7 +165,7 @@ class Navbar extends Component {
             </NavLink>
           </li> */}
           <li className="nav-item login-style">
-            <a href="#log-in" className="modal-trigger sidenav-login">
+            <a href="#modal-login" className="modal-trigger sidenav-login">
               log in
             </a>
           </li>
@@ -295,80 +295,7 @@ class Navbar extends Component {
             </div>
           </div>
         </div>
-        {/* <div id="get-started" className="modal">
-          <div className="modal-content">
-            <div className="row">
-              <div className="container black-txt">
-                <div className="col s12 m5">
-                  <div className="modal-bg-div">
-                    <a href="/" className="hidden-xs">
-                      <img
-                        src={logoAlt}
-                        alt="Paymonthly Cars"
-                        className="modal-logo"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div className="col s12 m7 rel m-c">
-                  <div className="close-div right-align-xs rel">
-                    <a href="/" class="visible-xs">
-                      <img
-                        src={logo}
-                        alt="Paymonthly Cars"
-                        className="modal-logo"
-                      />
-                    </a>
-                    <img
-                      src={x}
-                      alt="close modal"
-                      className="modal-close cursor"
-                    />
-                  </div>
-                  <form action="https://paymonthlycars.com/login" method="POST">
-                    <h4 className="modal-title sec-title">Join Us</h4>
-                    <div className="row">
-                      <div className="col s12">
-                        <div className="input-field col s12 m10 l7 pad0">
-                          <input
-                            type="email"
-                            id="email"
-                            value=""
-                            name="email"
-                            required
-                          />
-                          <label for="email">Email</label>
-                        </div>
-                      </div>
-                      <div className="col s12">
-                        <div className="input-field col s12 m10 l7 pad0">
-                          <input
-                            type="password"
-                            id="password"
-                            name="password"
-                            value=""
-                            required
-                          />
-                          <label for="password">Password</label>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div className="row mgd">
-                      <div className="col s12">
-                        <div>
-                          <button type="submit" className="btn btn-bigger">
-                            Login
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <ModalLogin />
       </>
     );
