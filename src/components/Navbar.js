@@ -115,7 +115,7 @@ class Navbar extends Component {
         </div>
 
         <ul className="sidenav" id="mobile-nav">
-          <div className="sidenav-close">
+          <div className="sidenav-close mobnav-close">
             <img src={xAlt} alt="close-icon " />
           </div>
           <div className="sidenav-logo">
@@ -124,7 +124,7 @@ class Navbar extends Component {
             </Link>
           </div>
 
-          <li className="nav-item ">
+          <li className="nav-item sidenav-close">
             <NavLink
               exact
               activeClassName="active-2"
@@ -134,7 +134,7 @@ class Navbar extends Component {
               home
             </NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item sidenav-close">
             <NavLink
               exact
               activeClassName="active-2"
@@ -144,7 +144,7 @@ class Navbar extends Component {
               about
             </NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item sidenav-close">
             <NavLink
               exact
               activeClassName="active-2"

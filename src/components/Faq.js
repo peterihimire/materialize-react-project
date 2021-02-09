@@ -14,7 +14,7 @@ class Faq extends React.Component {
       <section className="faq">
         <div className="container">
           <div className="row">
-            <div className='faq-header'>
+            <div className="faq-header">
               <h3 className="center">Hello, how can we help you ?</h3>
             </div>
 
@@ -123,6 +123,57 @@ class Faq extends React.Component {
                         </p>
                       </div>
                     </li>
+                        <li className="active">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          This is for the third tab, I hope I make it someday,
+                          cause I got alot of stories to tell?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -130,8 +181,8 @@ class Faq extends React.Component {
               <div className="col s12" id="tab-two">
                 <div className="accordion">
                   <div className="collapsible-header-sm visible-xs">
-                    <h6>BUYER</h6>
-                    <p>check faq for buyers</p>
+                    <h6>SELLER</h6>
+                    <p>check faq for sellers</p>
                   </div>
                   <ul className="collapsible">
                     <li className="active">
@@ -185,6 +236,57 @@ class Faq extends React.Component {
                         </p>
                       </div>
                     </li>
+                    <li className="active">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          This is for the third tab, I hope I make it someday,
+                          cause I got alot of stories to tell?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -192,10 +294,61 @@ class Faq extends React.Component {
               <div className="col s12" id="tab-three">
                 <div className="accordion">
                   <div className="collapsible-header-sm visible-xs">
-                    <h6>BUYER</h6>
-                    <p>check faq for buyers</p>
+                    <h6>SPONSOR</h6>
+                    <p>check faq for sponsors</p>
                   </div>
                   <ul className="collapsible">
+                    <li className="active">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          This is for the third tab, I hope I make it someday,
+                          cause I got alot of stories to tell?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="">
+                      <div className="collapsible-header rel">
+                        <i className="material-icons add-icon">add</i>
+                        <i className="material-icons remove-icon">remove</i>
+                        <span className="question">
+                          How long does it take for me to eventually get the
+                          car?
+                        </span>
+                      </div>
+
+                      <div className="collapsible-body">
+                        <p className="answer">
+                          Yes you can, some penalties would apply for the
+                          inconvenience, however you can at any point.
+                        </p>
+                      </div>
+                    </li>
                     <li className="active">
                       <div className="collapsible-header rel">
                         <i className="material-icons add-icon">add</i>

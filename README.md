@@ -1,4 +1,4 @@
-# PAYMONTHLYCARS 
+# PAYMONTHLY-CARS 
 
 ## Table of contents
 
