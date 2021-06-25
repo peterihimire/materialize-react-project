@@ -144,7 +144,7 @@ class Navbar extends Component {
               about
             </NavLink>
           </li>
-          <li className="nav-item sidenav-close">
+          <li className="nav-item sidenav-close ">
             <NavLink
               exact
               activeClassName="active-2"
